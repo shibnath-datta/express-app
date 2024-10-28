@@ -1,0 +1,43 @@
+1. Node is initiate
+2. Package.json
+3. Express js backend with packages
+    - npm i express/ npm i express
+    - npm i cookie-parser
+    - npm i cors
+    - npm i express-rate-limit
+    - npm i helmet
+    - npm i hpp
+    - npm i jsonwebtoken
+    - npm i mongoose
+    - npm i nodemailer
+    - npm i nodemon
+
+4. File Folder Structure 
+ -app
+    - config
+	-config.js
+    - controllers
+	-taskController.js
+    - middlewares
+	-authMiddleware.js
+    - models
+    - utility
+	-emailUtility.js
+	-tokenUtility.js
+	-validationUtility.js
+ - routes
+    - api routing
+ - storage
+
+5. app.js
+   - import applications all packages
+   - Global Application Middleware
+   - Rate Limiter
+   - Web Caching
+   - MongoDB connection
+   - Set API Routes
+   - Set Application Storage
+   - Run Your Express Back End Project
+
+
+6. Set Debugging
